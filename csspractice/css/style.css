@@ -1,0 +1,37 @@
+/* Thatcher Jackson
+   4/12/2023 */
+header {
+  background: darkolivegreen;
+}
+
+footer {
+  background: darkolivegreen;
+}
+
+p {
+  font-size: 20px;
+}
+
+ul {
+  font-size: 20px;
+}
+
+li {
+  font-size: 20px;
+}
+
+a:link {
+  color: violet;
+}
+
+a:visited {
+  color: blueviolet;
+}
+
+a:hover {
+  color: wheat;
+}
+
+a:active {
+  color: cornflowerblue;
+}
