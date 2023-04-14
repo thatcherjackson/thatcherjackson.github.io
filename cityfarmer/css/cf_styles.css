@@ -1,0 +1,59 @@
+/* Thatcher Jackson
+	 4/14/2023 */
+
+#outerwrapper {
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+} 
+
+.floatleft { 
+float: left;
+margin-right: 3%;
+}
+
+.floatright {
+float: right;
+margin-left: 3%;
+}
+
+main, footer { 
+clear: both;
+}
+
+body {
+	background-color: #b8d1eb;
+	color: #000000;
+	font-family: "Times New Roman", Times, serif;
+}
+
+main {
+	background-color: #C5A98B;
+	padding: 10px;
+}
+
+nav ul {
+	list-style: none; 
+}
+
+h1 {
+	font-family: 'Verdana', sans-serif;
+	font-size: 3em;
+}
+
+h2 {
+	font-family: 'Verdana', sans-serif;
+	font-weight: normal;
+	font-style: italic;
+}
+
+main ul {
+	list-style-image: url("../images/tomato.png");
+}
+
+footer {
+	font-size: .75em;
+	text-align: center;
+	background-color: #7e6850;
+	padding: 10px;
+}
