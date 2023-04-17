@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<!-- Thatcher Jackson
+     4/17/2023 -->
+<html lang="en">
+<head>
+    <title>Contact Form</title>
+    <meta name="author" content="Thatcher Jackson" />
+    <meta charset="UTF-8" />
+    <meta name="description" content="Thatcher Jackson web developer Boise Idaho" />
+    <meta name="keywords" content="client-side server-side C# HTML CSS JavaScript" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+        div {
+            margin: 10px;
+        }
+
+        label {
+            margin-right: 15px;
+            width: 150px;
+            display: inline-block;
+        }
+
+        #Company {
+            width: 350px
+        }
+
+        #Contact {
+            width: 250px
+        }
+
+        #Email {
+            width: 175px
+        }
+
+        #Phone {
+            width: 175px
+        }
+
+        textarea {
+            width: 800px;
+            height: 175px
+        }
+    </style>
+</head>
+<body>
+    <form action="mailto:thatcherjackson@my.cwi.edu?subject=Personal%20Portfolio%20Mail" enctype="text/plain" method="POST">
+        <fieldset>
+        <legend>How do I contact you?</legend>
+            <div>
+              <label for="Company">Company:</label><br>
+              <input type="text" id="Company" value="Big Tech Company"/>
+            </div>
+            <div>
+              <label for="Contact">Person to contact:</label><br>
+              <input type="text" id="Contact" value="Mary Wright"/>
+            </div>	
+            <div>
+              <label for="Email">Email:</label>
+              <input type="email" id="Email" value="mwright@bigtech.com" required/>
+            </div>
+            <div>
+              <label for="Phone">Phone Number:</label>
+              <input type="tel" id="Phone" value="208-111-1111" pattern="[0-9] {3}-[0-9] {3}-[0-9] {4}"/>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>What opportunities are available at your company?</legend>
+            Type of Position: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <select name="select">
+              <option>Internship</option>
+            </select>
+
+            <p>How did you find me?</p>
+            <input type="radio" name="found-rb" id="linkedin" value="LinkedIn" />
+            <label for="linkedin">LinkedIn</label>
+            <input type="radio" name="found-rb" id="jobfair" value="Job Fair" />
+            <label for="jobfair">Job Fair</label>
+            <input type="radio" name="found-rb" id="cwicorppartner" value="CWI Corporate Partner" checked />
+            <label for="cwicorppartner">CWI Corporate Partner</label>
+
+            <div>
+              <textarea name="textarea">We will give you a tour of our facility and ask you to fill out some paperwork. You will meet with an interview team of 3 people. If you are selected for the next round of interviews, that interview will be done by the owner of the company.</textarea>
+            </div>
+        </fieldset>
+		    <input type="submit" id="submit" value="Submit" class="btn">
+     </form>
+</body>
+</html>
