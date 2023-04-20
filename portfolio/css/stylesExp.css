@@ -1,0 +1,45 @@
+/* Thatcher Jackson
+   4/19/2023
+*/
+.projectExamples {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.projectBox {
+  background-color: rgb(195, 195, 195);
+  border: 3px solid #000000;
+  border-radius: 15px;
+  float: left;
+  margin: 10px;
+  text-align: center;
+  width: 31%;
+  padding-bottom: 20px;
+}
+
+.projectBox h4.banner {
+  background-color: rgb(52, 52, 52); 
+  color: #FFFFFF;
+  padding: 15px;
+}
+
+.projectBox img {
+  margin-bottom: 5px;
+}
+
+.projectBox a.button {
+  display: block;
+  width: 40%;
+  margin: 10px auto;
+  color: #FFFFFF;
+  background-color: rgb(52, 52, 52);
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 15px;
+  padding: 1px;
+  margin-top: 20px;
+}
+footer {
+  clear: left;
+}
