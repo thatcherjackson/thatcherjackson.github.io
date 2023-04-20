@@ -1,0 +1,66 @@
+/* Thatcher Jackson
+	 4/20/2023
+*/
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+@font-face {
+	font-family: 'Roboto';
+	src: url('../fonts/roboto-regular-webfont.woff') format('woff'),
+			 url('../fonts/roboto-regular-webfont.woff2') format('woff2');
+	font-style: normal;
+	font-weight: normal;
+}
+.addrightmargin {
+	margin-right: 10%;
+}
+
+#outerwrapper {	
+	background: rgba(243,205,170, 0.4);
+	border-radius: 15%;
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+}
+
+footer {
+	font-size: 1em;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+h1 {
+	font-family: 'Pacifico', Times, serif;
+	font-size: 4em;
+}
+
+h2 {
+	font-family: 'Roboto', "Times New Roman", serif;
+	font-size: 2em;
+	font-style: italic;
+}
+
+html {
+	background-image: url(../images/jewelry.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+img {
+	border-radius: 60%;
+	float: left;
+}
+
+main {
+	background: linear-gradient(#FFFFFF, #F0F9E6);
+	border-radius: 2em;
+	font-family: 'Arial', Times, serif;
+	font-size: 1.25em;
+	margin: 20px;
+	padding: 10px;
+}
+
+nav ul {
+	clear: left;
+	font-size: 1.5em;
+	list-style: none;
+}
