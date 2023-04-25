@@ -1,24 +1,42 @@
 /* Thatcher Jackson
    4/19/2023
 */
-.projectExamples {
-  width: 90%;
-  margin: 0 auto;
+
+footer {
+  clear: left;
 }
 
 .projectBox {
-  background-color: rgb(195, 195, 195);
-  border: 3px solid #000000;
+  background-color: #24252A;
+  border: none;
   border-radius: 15px;
-  float: left;
   margin: 10px;
   text-align: center;
   width: 31%;
   padding-bottom: 20px;
+  margin-bottom: 30px;
 }
 
-.projectBox h4.banner {
-  background-color: rgb(52, 52, 52); 
+.projectBox a.button {
+  display: block;
+  width: 40%;
+  margin: 10px auto;
+  color: #FFFFFF;
+  background-color: #0088a9;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 15px;
+  padding: 1px;
+  margin-top: 20px;
+}
+
+.projectBox a.button:hover {
+  background-color: rgba(0,136,169,0.8);
+}
+
+.projectBox h4.showcase {
+  background-color: #0088a9; 
   color: #FFFFFF;
   padding: 15px;
 }
@@ -27,19 +45,15 @@
   margin-bottom: 5px;
 }
 
-.projectBox a.button {
-  display: block;
-  width: 40%;
-  margin: 10px auto;
-  color: #FFFFFF;
-  background-color: rgb(52, 52, 52);
-  text-align: center;
-  font-weight: bold;
-  text-decoration: none;
-  border-radius: 15px;
-  padding: 1px;
-  margin-top: 20px;
+.projectExamples {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  margin: 0 auto;
 }
-footer {
-  clear: left;
-}
+
+
+
+
+
+
