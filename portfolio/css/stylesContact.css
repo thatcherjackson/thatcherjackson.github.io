@@ -1,0 +1,48 @@
+/* Thatcher Jackson
+   4/19/2023
+*/
+
+div {
+  margin: 10px;
+}
+
+label {
+  margin-right: 15px;
+  width: 150px;
+  display: inline-block;
+}
+
+#Company {
+  width: 350px
+}
+
+#Contact {
+  width: 250px
+}
+
+#Email {
+  width: 175px
+}
+
+#Phone {
+  width: 175px
+}
+
+textarea {
+  width: 800px;
+  height: 175px
+}
+
+input {
+  border: 1px solid #333333;
+  font-size: 1.25rem;
+  padding: 5px;
+  transition: all 0.5s ease;
+}
+
+input:focus {
+  border: 2px solid #008800;
+  font-size: 1.35rem;
+  outline: none;
+  padding: 10px;
+}

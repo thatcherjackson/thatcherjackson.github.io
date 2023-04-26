@@ -10,6 +10,7 @@
       <meta name="keywords" content="contacts, phone number, email" />
       <meta name="viewport" content="width=device=width, initial-scale=1.0" />
       <link rel="stylesheet" type="text/css" href="css/styles.css" />
+      <link rel="stylesheet" type="text/css" href="css/stylesContact.css" />
 </head>
 <body>
   <header>
@@ -26,7 +27,49 @@
 <main>
     <h2>Contact Me</h2>
 
-    <p>I will be graduating in the <u>spring of 2024</u>. You can contact me via email at <a href="mailto:supercoolemail@gmail.com">thatcherjackson@gmail.com</a> or phone at (208) 309-8370 to discuss potential employment opportunities at your company. I look forward to speaking again with you soon.</p>
+    <form action="mailto:thatcherjackson@my.cwi.edu?subject=Personal%20Portfolio%20Mail" enctype="text/plain" method="POST">
+      <fieldset>
+      <legend>How do I contact you?</legend>
+          <div>
+            <label for="Company">Company:</label><br>
+            <input type="text" name="compName" id="Company" />
+          </div>
+          <div>
+            <label for="Contact">Person to contact:</label><br>
+            <input type="text" name="contactName" id="Contact" />
+          </div>	
+          <div>
+            <label for="Email">Email:</label>
+            <input type="email" name="email" id="Email" placeholder="Email" required/>
+          </div>
+          <div>
+            <label for="Phone">Phone Number:</label>
+            <input type="tel" name="phone" id="Phone" placeholder="000-000-0000" 
+            pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"/>
+          </div>
+      </fieldset>
+
+      <fieldset>
+          <legend>What opportunities are available at your company?</legend>
+          Type of Position: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <select name="employment">
+            <option>Internship</option>
+          </select>
+
+          <p>How did you find me?</p>
+          <input type="radio" name="referral" id="linkedin" value="LinkedIn" />
+          <label for="linkedin">LinkedIn</label>
+          <input type="radio" name="referral" id="jobfair" value="Job Fair" />
+          <label for="jobfair">Job Fair</label>
+          <input type="radio" name="referral" id="cwicorppartner" value="CWI Corporate Partner" checked />
+          <label for="cwicorppartner">CWI Corporate Partner</label>
+
+          <div>
+            <textarea name="comment">How should I prepare for the interview?</textarea>
+          </div>
+      </fieldset>
+      <input type="submit" id="submit" value="Submit" class="btn">
+   </form>
 </main>
 <footer>
   <p>Find me on:</p>
