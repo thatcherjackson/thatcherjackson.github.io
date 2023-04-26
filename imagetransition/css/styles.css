@@ -1,0 +1,13 @@
+/* Thatcher Jackson
+   4/26/2023
+*/
+
+img {
+  padding: 20px;
+  transition: width 2s ease 0.5s;
+  width: 250px;
+}
+
+img:hover {
+  width: 350px;
+}
