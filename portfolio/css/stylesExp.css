@@ -9,6 +9,11 @@ caption {
   text-align: center;
 }
 
+main p {
+  margin-left: 6%;
+  margin-right: 6%;
+}
+
 .projectBox {
   background-color: #24252A;
   border: none;
