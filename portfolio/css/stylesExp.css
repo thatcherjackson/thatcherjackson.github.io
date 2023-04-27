@@ -1,38 +1,46 @@
 /* Thatcher Jackson
-   4/19/2023
+   4/27/2023
 */
 
-footer {
-  clear: left;
+caption {
+  color: #edf0f1;
+  font-family: 'Montserrat', Times, sans-serif;
+  font-weight: 500;
+  text-align: center;
 }
 
 .projectBox {
   background-color: #24252A;
   border: none;
   border-radius: 15px;
-  margin: 10px;
   text-align: center;
-  width: 31%;
-  padding-bottom: 20px;
+  margin: 10px;
   margin-bottom: 30px;
+  padding-bottom: 20px;
+  width: 31%;
 }
 
 .projectBox a.button {
-  display: block;
-  width: 40%;
-  margin: 10px auto;
-  color: #FFFFFF;
-  background-color: #0088a9;
-  text-align: center;
-  font-weight: bold;
-  text-decoration: none;
+  background-color: #0088A9;
   border-radius: 15px;
-  padding: 1px;
+  color: #FFFFFF;
+  display: block;
+  margin: 10px auto;
   margin-top: 20px;
+  padding: 4px;
+  text-align: center;
+  width: 40%;
 }
 
 .projectBox a.button:hover {
   background-color: rgba(0,136,169,0.8);
+}
+
+.projectExamples {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  width: 90%;
 }
 
 .projectBox h4.showcase {
@@ -42,18 +50,28 @@ footer {
 }
 
 .projectBox img {
+  height: 40%;
   margin-bottom: 5px;
+  width: 60%;
 }
 
-.projectExamples {
-  display: flex;
-  justify-content: center;
-  width: 90%;
-  margin: 0 auto;
+table {
+  border-collapse:collapse;
+  margin: auto;
+  padding:5px;
+  width:40%;
 }
 
+table td {
+  background: #FFFFFF;
+  border:1px solid #24252A;
+  color: #000000;
+  padding:5px;
+  text-align:left;
+}
 
-
-
-
-
+table th {
+  background: #0088A9;
+  color: #000000;
+  padding:5px;
+}

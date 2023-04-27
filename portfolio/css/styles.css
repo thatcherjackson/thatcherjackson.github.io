@@ -1,7 +1,16 @@
 /* Thatcher Jackson
-   4/19/2023
+   4/27/2023
 */
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+@font-face {
+  font-family: 'kaushanscript';
+  src: url('../fonts/kaushanscript-regular-webfont.woff') format('woff'),
+       url('../fonts/kaushanscript-regular-webfont.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
 
 .banner {
   background-image: url(../image/portfolioBanner.png);
@@ -12,7 +21,7 @@
 }
 
 body {
-  background-color: grey;
+  background: linear-gradient(grey, #24252A);
   margin: 0;
   padding: 0;
 }
@@ -21,7 +30,6 @@ button {
   background-color: rgba(0,136,169,1);
   border: none;
   border-radius: 50px;
-  cursor: pointer;
   padding: 9px 25px;
   transition: all 0.3s ease 0s;
 }
@@ -40,7 +48,7 @@ footer img {
 }
 
 footer p {
-  color: #edf0f1;
+  color: #EDF0F1;
   font-family: 'Montserrat', Times, sans-serif;
   font-size: 16px;
   font-weight: 500;
@@ -49,9 +57,9 @@ footer p {
 }
 
 h2 {
-  color: #edf0f1;
+  color: #24252A;
   font-family: 'Montserrat', Times, sans-serif;
-  font-weight: 500;
+  font-weight: 700;
 }
 
 header {
@@ -63,11 +71,22 @@ header {
 }
 
 li, a, button {
-  color: #edf0f1;
+  color: #EDF0F1;
   font-family: 'Montserrat', Times, sans-serif;
   font-size: 16px;
   font-weight: 500;
   text-decoration: none;
+}
+
+.logo {
+  color: #EDF0F1;
+  font-family: 'kaushanscript', Times, sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+main {
+  text-align: center;
 }
 
 nav {
@@ -84,5 +103,5 @@ nav li a {
 }
 
 nav li a:hover {
-  color: #0088a9;
+  color: #0088A9;
 }

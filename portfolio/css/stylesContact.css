@@ -1,48 +1,78 @@
 /* Thatcher Jackson
-   4/19/2023
+   4/27/2023
 */
+
+.btn {
+  background-color: rgba(0,136,169,1);
+  border: 0.5px solid #24252A;
+  border-radius: 50px;
+  color: #edf0f1;
+  cursor: pointer;
+  font-family: 'Montserrat', Times, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 9px 25px;
+  transition: all 0.3s ease 0s;
+}
+
+.btn:hover {
+  background-color: rgba(0,136,169,0.8);
+}
+
+#Company {
+  width: 350px;
+}
+
+#Contact {
+  width: 250px;
+}
 
 div {
   margin: 10px;
 }
 
-label {
-  margin-right: 15px;
-  width: 150px;
-  display: inline-block;
-}
-
-#Company {
-  width: 350px
-}
-
-#Contact {
-  width: 250px
-}
-
 #Email {
-  width: 175px
+  width: 175px;
 }
 
-#Phone {
-  width: 175px
+#employment {
+  border: 1px solid #24252A;
+  font-size: .95rem;
+  padding: 5px;
+  transition: all 0.5s ease;
 }
 
-textarea {
-  width: 800px;
-  height: 175px
+fieldset {
+  border-color: #24252A;
+  margin-bottom: 20px;
+  margin: auto;
+  width: 90%;
 }
 
 input {
-  border: 1px solid #333333;
+  border: 1px solid #24252A;
   font-size: 1.25rem;
   padding: 5px;
   transition: all 0.5s ease;
 }
 
 input:focus {
-  border: 2px solid #008800;
   font-size: 1.35rem;
   outline: none;
   padding: 10px;
+}
+
+label {
+  display: inline-block;
+  margin-right: 15px;
+  width: 150px;
+}
+
+#Phone {
+  width: 175px;
+}
+
+textarea {
+  height: 175px;
+  width: 40%;
 }

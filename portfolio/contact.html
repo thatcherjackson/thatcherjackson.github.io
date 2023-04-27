@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <!-- Thatcher Jackson
-     4/19/2023 -->
-  <html lang="en">
-    <head>
-      <title>Contact</title>
-      <meta name="author" content="Thatcher Jackson" />
-      <meta charset="UTF-8" />
-      <meta name="description" content="Ways to contact Thatcher Jackson" />
-      <meta name="keywords" content="contacts, phone number, email" />
-      <meta name="viewport" content="width=device=width, initial-scale=1.0" />
-      <link rel="stylesheet" type="text/css" href="css/styles.css" />
-      <link rel="stylesheet" type="text/css" href="css/stylesContact.css" />
+     4/27/2023 -->
+<html lang="en">
+<head>
+  <title>Contact</title>
+  <meta name="author" content="Thatcher Jackson" />
+  <meta charset="UTF-8" />
+  <meta name="description" content="Ways to contact Thatcher Jackson" />
+  <meta name="keywords" content="contacts, phone number, email" />
+  <meta name="viewport" content="width=device=width, initial-scale=1.0" />
+  <link rel="stylesheet" type="text/css" href="css/styles.css" />
+  <link rel="stylesheet" type="text/css" href="css/stylesContact.css" />
 </head>
 <body>
   <header>
-    <h2>Thatcher Jackson</h2>
+    <h2><a class="logo" href="Index.html">TJ</a></h2>
     <nav>
       <ul>
         <li><a href="Index.html">Home</a></li>
@@ -23,8 +23,8 @@
       </ul>
     </nav>
     <a href="contact.html"><button>Contact</button></a>
-</header>
-<main>
+  </header>
+  <main>
     <h2>Contact Me</h2>
 
     <form action="mailto:thatcherjackson@my.cwi.edu?subject=Personal%20Portfolio%20Mail" enctype="text/plain" method="POST">
@@ -52,11 +52,13 @@
       <fieldset>
           <legend>What opportunities are available at your company?</legend>
           Type of Position: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          <select name="employment">
+          <select name="employment" id="employment">
             <option>Internship</option>
           </select>
 
           <p>How did you find me?</p>
+          <input type="radio" name="referral" id="indeed" value="Indeed" />
+          <label for="indeed">Indeed</label>
           <input type="radio" name="referral" id="linkedin" value="LinkedIn" />
           <label for="linkedin">LinkedIn</label>
           <input type="radio" name="referral" id="jobfair" value="Job Fair" />
@@ -70,15 +72,12 @@
       </fieldset>
       <input type="submit" id="submit" value="Submit" class="btn">
    </form>
-</main>
-<footer>
-  <p>Find me on:</p>
-    <img src="image/linkedinicon.png">
+  </main>
+  <footer>
+    <p>Find me on:</p>
+    <a target="_blank" href=https://www.linkedin.com><img src="image/linkedinicon.png" alt="LinkedIn Logo"/></a>
     &nbsp;
-    <img src="image/githubicon.png">
-</footer>
+    <a target="_blank" href=https://github.com/thatcherjackson/thatcherjackson.github.io><img src="image/githubicon.png" alt="GitHub Logo"/></a>
+  </footer>
 </body>
 </html>
-
-
-  
