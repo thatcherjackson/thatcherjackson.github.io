@@ -43,6 +43,18 @@ footer {
   padding-left: 10px;
 }
 
+footer a {
+  text-decoration: underline;
+}
+
+footer a:link {
+  color: #EDF0F1;
+}
+
+footer a:visited {
+  color: #0088A9;
+}
+
 footer img {
   margin-bottom: 15px;
 }
@@ -103,5 +115,9 @@ nav li a {
 }
 
 nav li a:hover {
+  color: #0088A9;
+}
+
+footer a:active {
   color: #0088A9;
 }
