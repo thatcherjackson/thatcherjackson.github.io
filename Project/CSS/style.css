@@ -1,0 +1,106 @@
+* {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.banner {
+  /* Background image taken from natureworldtoday.com */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75),rgba(0, 0, 0, 0.75)),url(Dinosaurs.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+button {
+  background: transparent;
+  border: 2px solid #a08b06;
+  border-radius: 20px;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+  overflow: hidden;
+  padding: 15px 0;
+  position: relative;
+  text-align: center;
+  margin: 20px 10px;
+  width: 200px;
+}
+
+button:hover {
+  border: none;
+}
+
+button:hover span {
+  width: 100%;
+}
+
+.content {
+  color: #fff;
+  position: absolute;
+  text-align: center;
+  transform: translateY(-50%);
+  top: 50%;
+  width: 100%;
+}
+
+.content h1 {
+  font-size: 70px;
+  margin-top: 80px;
+}
+
+.content p {
+  font-weight: 100;
+  line-height: 25px;
+  margin: 20px auto;
+}
+
+.navbar {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  padding: 35px 0;
+  width: 85%;
+}
+
+.navbar ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 0 20px;
+  position: relative;
+}
+
+.navbar ul li a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.navbar ul li::after {
+  background: #a08b06;
+  bottom: -10px;
+  content: '';
+  height: 3px;
+  left: 0;
+  position: absolute;
+  transition: 0.5s;
+  width: 0;
+}
+
+.navbar ul li:hover::after {
+  width: 100%;
+}
+
+span {
+  background: #a08b06;
+  border-radius: 25px;
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  transition: 0.5s;
+  width: 0;
+  z-index: -1;
+}
