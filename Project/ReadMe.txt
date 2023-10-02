@@ -17,3 +17,13 @@
 - Added javascript for newsletter, contact, and faq pages
 - Lightly designed newsletter, contact, and faq pages to fit theme and not look out of place with css
 - Added links to the index so navbar takes user to whatever page they click on
+
+10/1/23 - Created new About page
+- Built carousel on About page
+- Found images online for Carousel page
+- Old Western Image came from Pinterest.com
+- Dinosaur Image from natureworldtoday.com
+- JFK Image from history.com
+- Cavemen Image from brophyworld.com
+- MLK Image from goodstudy.org
+- Updated FAQs page to use jQuery animations
