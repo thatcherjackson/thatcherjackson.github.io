@@ -27,3 +27,14 @@
 - Cavemen Image from brophyworld.com
 - MLK Image from goodstudy.org
 - Updated FAQs page to use jQuery animations
+
+10/7/23 - Redesigned entire website (Most of HTML and almost all of CSS from Mr.Web Designer's Travel Website Tutorial)
+- Changed out contact section for a booking section with 4 fields
+
+10/8/23 - Redesigned newsletter/email list feature
+- Slightly redesigned about page
+- Slightly redesigned newsletter confirmation page
+- Added testimonials/review section
+- Changed FAQs section to be an ACCORDION WIDGET from JQuery
+- Added DIALOG BOX WIDGET on faqs page from JQuery
+- Added tooltip for accordion on faqs page with TOOLTIP WIDGET from JQuery

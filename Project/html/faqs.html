@@ -1,0 +1,78 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <title>FAQs</title>
+    <meta name="author" content="Thatcher Jackson" />
+    <meta charset="UTF-8" />
+    <meta name="description" content="Homepage for Blast To The Past Website" />
+    <meta name="keywords" content="time-travel" />
+    <meta name="viewport" content="width=device=width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../jquery-ui-1.13.2/jquery-ui.min.css">    
+</head>
+
+<body>
+
+    <header class="header">
+        <a href="#" class="logo"> Blast To The Past </a>
+    
+        <nav class="navbar">
+            <a href="../html/index.html">home</a>
+            <a href="../html/about.html">about</a>
+            <a href="../html/faqs.html">faqs</a>
+            <a href="#newsletter">newsletter</a>
+        </nav>
+    
+        <a href="#book-form" class="btn">book now</a>
+    </header>
+
+    <section class="faqs">
+        <h1>FAQs</h1>       
+        <div id="accordion" title="This is an epic accordion">
+             <h2>What is Blast To The Past</h2>
+            <div>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius iusto quasi quidem sunt facere aspernatur, amet inventore quae repellat illo, ratione veritatis ipsa. Distinctio eum vel similique quis repellat in deleniti eligendi nulla laborum perferendis? Odio perspiciatis sed iste maiores!</p>
+            </div>
+            <h3>Who is Blast To The Past</h3>
+            <div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, perferendis. Exercitationem tempore rerum quas doloribus praesentium, nihil nam aperiam quidem enim facilis sapiente laborum? Recusandae reprehenderit perferendis repellat ducimus voluptas temporibus numquam enim quam voluptates sit nisi, magnam autem quae.</p>
+            </div>
+            <h3>Why is Blast To The Past</h3>
+            <div>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia, nam veniam fugit ipsum dolorum soluta provident ut perferendis accusantium itaque nulla vitae in repellat ullam laboriosam beatae, cumque nobis totam sapiente impedit ducimus explicabo eveniet dolore. Tenetur nam ipsa impedit.</p>
+            </div>
+        </div>
+    </section>
+    <div id="dialog">
+        Welcome To The FAQs page, hopefully any questions you have can be be answered within these sections. Thanks for checking out our website!
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="../jquery-ui-1.13.2/jquery-ui.min.js"></script>    
+    <script>
+        $(document).ready( () => 
+            $("#accordion").accordion({ 
+                event: "click",
+                heightStyle: "content",
+                collapsible: true,
+                active: false
+            })
+        )
+
+        $(document).ready( () => 
+            $("#accordion").tooltip({ 
+                track: true
+            })
+        )
+
+        $(document).ready( () => 
+            $("#dialog").dialog({ 
+                title: "Jeffrey",
+                draggable: false,
+                resizable: false,
+                closeOnEscape: false
+                
+            })
+        )
+    </script>    
+</body>
+</html>
