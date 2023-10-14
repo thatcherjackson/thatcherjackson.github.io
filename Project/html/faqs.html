@@ -14,32 +14,31 @@
 <body>
 
     <header class="header">
-        <a href="#" class="logo"> Blast To The Past </a>
+        <a href="../html/index.html" class="logo"> Blast To The Past </a>
     
         <nav class="navbar">
             <a href="../html/index.html">home</a>
             <a href="../html/about.html">about</a>
             <a href="../html/faqs.html">faqs</a>
-            <a href="#newsletter">newsletter</a>
         </nav>
     
-        <a href="#book-form" class="btn">book now</a>
+        <a href="../html/index.html" class="btn">book now</a>
     </header>
 
     <section class="faqs">
         <h1>FAQs</h1>       
-        <div id="accordion" title="This is an epic accordion">
+        <div id="accordion" title="Frequently Asked Questions About Blast To The Past">
              <h2>What is Blast To The Past</h2>
             <div>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius iusto quasi quidem sunt facere aspernatur, amet inventore quae repellat illo, ratione veritatis ipsa. Distinctio eum vel similique quis repellat in deleniti eligendi nulla laborum perferendis? Odio perspiciatis sed iste maiores!</p>
+                <p>We are a company that strives to provide the best time-travel service in the world and give people the chance to experience places and times they otherwise would never get to.</p>
             </div>
-            <h3>Who is Blast To The Past</h3>
+            <h3>Where can we go in time?</h3>
             <div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, perferendis. Exercitationem tempore rerum quas doloribus praesentium, nihil nam aperiam quidem enim facilis sapiente laborum? Recusandae reprehenderit perferendis repellat ducimus voluptas temporibus numquam enim quam voluptates sit nisi, magnam autem quae.</p>
+                <p>The only limit is your imagination. Over the years we have improved upon our services and processes to the point where we can take anyone anywhere in time! Exciting is isn't it?</p>
             </div>
-            <h3>Why is Blast To The Past</h3>
+            <h3>What safety measures do you take?</h3>
             <div>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia, nam veniam fugit ipsum dolorum soluta provident ut perferendis accusantium itaque nulla vitae in repellat ullam laboriosam beatae, cumque nobis totam sapiente impedit ducimus explicabo eveniet dolore. Tenetur nam ipsa impedit.</p>
+                <p>For starters, we have a security team accompany every journey and maintain your safety from a distance. We also have someone equipped with an emergency return switch that brings everyone in the party back in an instant, if we feel a dangerous situation is arising. Not all places in time are pretty after all. We have never had any accidents, and we don't plan to. Your safety is our #1 priority.</p>
             </div>
         </div>
     </section>
@@ -48,31 +47,6 @@
     </div>
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="../jquery-ui-1.13.2/jquery-ui.min.js"></script>    
-    <script>
-        $(document).ready( () => 
-            $("#accordion").accordion({ 
-                event: "click",
-                heightStyle: "content",
-                collapsible: true,
-                active: false
-            })
-        )
-
-        $(document).ready( () => 
-            $("#accordion").tooltip({ 
-                track: true
-            })
-        )
-
-        $(document).ready( () => 
-            $("#dialog").dialog({ 
-                title: "Jeffrey",
-                draggable: false,
-                resizable: false,
-                closeOnEscape: false
-                
-            })
-        )
-    </script>    
+    <script src="../js/faqs.js"></script>    
 </body>
 </html>

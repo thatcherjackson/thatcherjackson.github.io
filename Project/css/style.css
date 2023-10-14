@@ -341,3 +341,66 @@ form {
 .confirmation .btn {
     margin-left: 525px;
 }
+
+#where_error {
+    color: red;
+    font-size: 1rem;
+}
+
+#party_error {
+    color: red;
+    font-size: 1rem;
+}
+
+#date_error {
+    color: red;
+    font-size: 1rem;
+}
+
+#date_error2 {
+    color: red;
+    font-size: 1rem;
+}
+
+#book-form h1 {
+    font-size: 3.2rem;
+    color: #fff;
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+/* Media Queries */
+
+@media (max-width: 991px) {
+
+    html {
+        font-size: 55%;
+    }
+
+    .header {
+        padding: 1.5rem 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .navbar {
+        position: absolute;
+        margin: auto;
+        top: 99%; left:0; right:0;
+        background: #222;
+    }
+
+    .navbar a {
+        margin: auto;
+        font-size: 2rem;
+        display: block;
+    }
+}
+
+@media (max-width: 450px) {
+
+    html {
+        font-size: 55%;
+    }
+}

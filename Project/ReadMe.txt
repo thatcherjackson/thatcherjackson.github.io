@@ -28,7 +28,7 @@
 - MLK Image from goodstudy.org
 - Updated FAQs page to use jQuery animations
 
-10/7/23 - Redesigned entire website (Most of HTML and almost all of CSS from Mr.Web Designer's Travel Website Tutorial)
+10/7/23 - Redesigned entire website (Most of HTML and almost all of CSS from Mr.Web Designer's Travel Website Tutorial on Youtube)
 - Changed out contact section for a booking section with 4 fields
 
 10/8/23 - Redesigned newsletter/email list feature
@@ -38,3 +38,10 @@
 - Changed FAQs section to be an ACCORDION WIDGET from JQuery
 - Added DIALOG BOX WIDGET on faqs page from JQuery
 - Added tooltip for accordion on faqs page with TOOLTIP WIDGET from JQuery
+
+10/13/23 - Added validation to booking form, including using RegEx for a couple fields
+- Added RegEx to newsletter form validation
+- Created confirmation page for booking form
+- Added media queries to help with mobile views (Taken from same Mr.Web Designer's Travel Website Youtube Tutorial I used previously)
+- Replaced all paragraph content with meaningful content, making the website more fleshed out and real feeling
+- Added date & time display to bottom of booking form section on homepage (Code taken from KodeBase's "How to Display Current Date and Time in Javascript" Youtube Tutorial)
