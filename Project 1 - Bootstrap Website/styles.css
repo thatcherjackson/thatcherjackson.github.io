@@ -1,0 +1,371 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#sitetitle {
+    background-color: brown;
+}
+
+/* Home Section Start */
+
+#home {
+    width: 100%;
+    height: 90vh;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(./images/coffee_background.jpg);
+    /*Image taken from wallpaperaccess.com*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 80%;
+}
+
+#home .content {
+    padding-top: 210px;
+    margin-left: 56px;
+}
+
+#home .content h3 {
+    font-size: 50px;
+    color: white;
+}
+
+#home .content p {
+    margin-top: 10px;
+    color: white;
+}
+
+#btn {
+    width: 150px;
+    height: 36px;
+    margin-top: 20px;
+    background: white;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+#btn:hover {
+  background: brown;
+  color: white;
+}
+
+/* Home Section End */
+
+/* About Section Start */
+
+#about {
+    width: 100%;
+    height: 100vh;
+}
+
+#about .container {
+    padding-top: 70px;
+}
+
+.about-heading {
+    text-align: center;
+    margin-bottom: 50px;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.about-heading span {
+    color: brown;
+}
+
+#about .card {
+    border-radius: 10px;
+}
+
+#about .card img {
+    border-radius: 10px;
+    width: 635px;
+    height: 450px;
+}
+
+#about-btn {
+    width: 200px;
+    height: 36px;
+    background: transparent;
+    border: 2px solid brown;
+    font-weight: bold;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+#about-btn:hover {
+    background-color: brown;
+    color: white;
+}
+
+@media screen and (max-width:982px) {
+    #about p {
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width:766px) {
+    #about p {
+        font-size: 15px;
+    }
+    #about {
+        height: 120vh;
+    }
+}
+
+/* About Section End */
+
+/* Menu Start */
+
+#menu .card img {
+    width: 305px;
+    height: 400px;
+}
+
+#menu {
+    width: 100%;
+    margin-top: 40px;
+}
+
+.menu-heading {         
+    text-align: center;
+    font-size: 30px;
+    color: brown;
+    font-weight: bold;
+    border-bottom: 2px solid brown;
+}
+
+#menu-container {      
+    margin-top: 30px;
+}
+
+#menu .card {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+#menu h3 {
+    text-align: center;
+    color: brown;
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+#menu p {
+    font-size: 16px;
+    color: brown;
+    padding-top: 10px;
+    text-align: center;
+}
+
+/* Menu End */
+
+/* Product Section Start */
+
+#product .card img {
+    width: 305px;
+    height: 275px;
+}
+
+#product {
+    width: 100%;
+}
+
+.product-heading {                          
+    text-align: center;
+    color: brown;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 70px;
+    border-bottom: 2px solid brown;
+}
+
+#product-container {                           
+    margin-top: 30px;
+}
+
+#product h3 {
+    text-align: center;
+    color: brown;
+    font-size: 23px;
+}
+
+#product p {
+    color: brown;
+    padding-top: 10px;
+    text-align: center;
+}
+
+/* Product Section End */
+
+/* Gallery Section Start */
+
+#gallery {
+    width: 100%;
+}
+
+.gallery-heading {
+    text-align: center;
+    color: black;
+    margin-top: 60px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#gallery .gallery-heading span {
+    color: brown;
+}
+
+#gallery .card {
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#gallery .card img {
+    border-radius: 10px;
+    width: 415px;
+    height: 300px;
+}
+
+/* Gallery Section End */
+
+/* Contact Section Start */
+
+#contact {
+    width: 100%;
+    height: 100vh;
+    padding-top: 70px;
+}
+
+#contact .container {
+    width: 100%;
+    height: 80vh;
+    background: linear-gradient(90deg, white 80%, brown 20%);
+    border-radius: 10px;
+}
+
+.contact-heading {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 70px;
+}
+
+.contact-heading span {
+    color: brown;
+}
+
+#contact p {
+    font-weight: bold;
+    font-size: 13px;
+    color: black;
+}
+
+#contact input {
+    width: 360px;
+    border: none;
+    border-bottom: 1px solid brown;
+}
+
+#contact-btn {
+    width: 200px;
+    height: 36px;
+    background: transparent;
+    color: black;
+    font-weight: bold;
+    margin-top: 30px;
+    cursor: pointer;
+    border: 2px solid brown;
+    transition: 0.5s;
+}
+
+#contact-btn:hover {
+    background-color: brown;
+    color: white;
+}
+
+#col {
+    border-radius: 10px;
+    width: 40%;
+    height: 56vh;
+    background: black;
+    margin-top: 78px;
+}
+
+#contact h1 {
+    color: white;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#contact #col p {
+    font-size: 15px;
+    color: white;
+    margin-left: 13px;
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 765px) {
+    #contact .container {
+        background: white;
+    }
+    #col {
+        width: 100%;
+        background: brown;
+    }
+    #contact {
+        height: 150vh;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #contact input {
+        width: 250px;
+    }
+}
+
+/* Contact Section End */
+
+/* Footer Section Start */
+
+#footer {
+    width: 100%;
+    background: brown;
+    margin-top: 50px;
+}
+
+#footer .social-links i {
+    font-size: 25px;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 3px;
+    padding-top: 20px;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.credits {
+    color: white;
+    margin-top: 20px;
+    text-shadow: 0px 0px 1px black;
+}
+
+.credits a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+#credits a span {
+    color: black;
+}
+
+.copyright span{
+    color: black;
+}
+
+/* Footer Section End */
