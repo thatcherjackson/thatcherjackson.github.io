@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Thatcher's Cups of Coffee</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link href="styles.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+
+<div class="p-3 text-white text-center" id="sitetitle">
+    <h1>Thatcher's Cups of Coffee</h1>
+    <p>A cozy place for you to get and enjoy your daily coffee!</p> 
+</div>
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark" id="navbar">
+    <div class="container-fluid">
+        <ul class="m-auto navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Menu</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Product</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Gallery</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<section id="home">
+    <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+        <ol class="carousel-indicators">
+            <li
+                data-bs-target="#carouselId"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="First slide"
+            ></li>
+            <li
+                data-bs-target="#carouselId"
+                data-bs-slide-to="1"
+                aria-label="Second slide"
+            ></li>
+            <li
+                data-bs-target="#carouselId"
+                data-bs-slide-to="2"
+                aria-label="Third slide"
+            ></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active">
+                <img
+                    src="../Exam Question 1/images/coffee_background.jpg"
+                    class="w-100 d-block"
+                    alt="First slide"
+                    id="slide_image"
+                />
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>Start Your Day With a <br> Fresh Coffee</h3>
+                    <p>We brew the best coffee in the world! If you would like <br />to order
+                        some just click the button below!</p>
+                    <a href="#menu"><button id="btn">Shop Now</button></a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img
+                    src="../Exam Question 1/images/coffee_shop_image.jpg"
+                    class="w-100 d-block"
+                    alt="Second slide"
+                    id="slide_image"
+                />
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>Start Your Day With a <br> Fresh Coffee</h3>
+                    <p>We brew the best coffee in the world! If you would like <br />to order
+                        some just click the button below!</p>
+                    <a href="#menu"><button id="btn">Shop Now</button></a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img
+                    src="../Exam Question 1/images/coffee_cup.jpg"
+                    class="w-100 d-block"
+                    alt="Third slide"
+                    id="slide_image"
+                />
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>Start Your Day With a <br> Fresh Coffee</h3>
+                    <p>We brew the best coffee in the world! If you would like <br />to order
+                        some just click the button below!</p>
+                    <a href="#menu"><button id="btn">Shop Now</button></a>
+                </div>
+            </div>
+        </div>
+        <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselId"
+            data-bs-slide="prev"
+        >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselId"
+            data-bs-slide="next"
+        >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    
+        <!-- <h3>Start Your Day With a <br> Fresh Coffee</h3>
+        <p>We brew the best coffee in the world! If you would like <br />to order
+            some just click the button below!</p>
+        <a href="#menu"><button id="btn">Shop Now</button></a> -->
+</section>
+
+<section id="about">
+    <div class="container">
+        <div class="about-heading">About <span>Us</span></div>
+        <div class="row">
+
+            <div class="col-md-6">
+                <div class="card">
+                    <!-- Image taken from pexels.com -->
+                    <img src="./images/coffee_image.jpg">
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <h3>What Makes Our Coffee So Special?</h3>
+                <p>All the coffee beans we use are fresh beans straight from
+                    our own farm, and everyone knows that the fresher the tastier!
+                    <br />
+                    <br />
+                    We also have some super secret special ingredients in our recipes,
+                    but our coffee wouldn't be nearly as special if we told you what they
+                    were, now would it?
+                </p>
+                <button id="about-btn">Learn More</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-md-7">
+                <div class="contact-heading">Contact <span>Us</span></div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis magnam expedita sint   <br>deleniti odio quis.
+                </p>
+                <input type="text" class="form-control" placeholder="Name"><br>
+                <input type="email" class="form-control" placeholder="Person@example.com"><br>
+                <input type="text" class="form-control" placeholder="Phone"><br>
+                <button id="contact-btn">Submit</button>
+            </div>
+
+            <div class="col-md-5" id="col">
+                <h1>Our Contact Info</h1>
+                <p>example@gmail.com</p>
+                <p>+1000-000-0000</p>
+                <p>Epic Place</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer id="footer">
+    <div class="social-links text-center">
+        <i class="bi-twitter"></i>
+        <i class="bi-facebook"></i>
+        <i class="bi-instagram"></i>
+    </div>
+
+    <div class="copyright text-center">
+        &copy; Copyright <strong> <span>Thatcher's Cups of Coffee</span></strong>. All Rights reserved 
+    </div>
+</footer>
+
+</body>
+</html>
