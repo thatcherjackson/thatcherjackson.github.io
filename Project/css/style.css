@@ -1,0 +1,406 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:wght@100;300;400;500;600&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 9rem;
+
+    &::-webkit-scrollbar{
+        width: 1rem;
+    }
+
+    &::-webkit-scrollbar-track{
+        background: #111;
+    }
+
+    &::-webkit-scrollbar-thumb{
+        background: #29d9d5;
+    }
+}
+
+section {
+    padding: 3rem 9%;
+}
+
+body {
+    background: #111;
+    overflow-x: hidden;
+}
+
+.btn {
+    margin-top: 1rem;
+    display: inline-block;
+    padding: 1rem 3rem;
+    font-size: 1.7rem;
+    color: #29d9d5;
+    border: .2rem solid #29d9d5;
+    border-radius: 5rem;
+    cursor: pointer;
+    background: none;
+
+    &:hover {
+      background-color: #29d9d5;
+      color: #111;
+    }
+}
+
+.header {
+    position: fixed;
+    top:0; left:0; right:0;
+    z-index: 1000;
+    background: #222;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 9%;
+
+    .navbar a {
+        font-size: 1.7rem;
+        color: #aaa;
+        display: inline-block;
+        margin: 0 1rem;
+
+        &:hover {
+            color:#29d9d5;
+        }
+    }
+
+    .btn {
+        margin-top: 0;
+    }
+}
+
+.logo {
+    font-size: 2.5rem;
+    color: #fff;
+    font-weight: bolder;
+}
+
+.home {
+    margin: 0 auto;
+    margin-top: 9rem;
+    width: 90%;
+    border-radius: 1rem;
+    background: linear-gradient(rgba(17,17,17,.7), rgba(17,17,17,.7)), url(../images/Dinosaurs.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5rem;
+
+    .content {
+        text-align: center;
+    }
+}
+
+.home .content span {
+    font-weight: bolder;
+    color: transparent;
+    -webkit-text-stroke: .1rem #fff;
+    font-size: 4vw;
+    display: block;
+}
+
+.content h3 {
+    font-size: 6vw;
+    color: #fff;
+}
+
+.content p {
+    max-width: 60rem;
+    margin: 1rem auto;
+    font-size: 1.4rem;
+    color: #aaa;
+    line-height: 2;
+}
+
+.book-form {
+    width: 80%;
+    margin: 1rem auto;
+    margin-top: -5rem;
+    background: #222;
+    border-radius: 1rem;
+    box-shadow: 0 .5rem 1rem rgba(17,17,17,.3);
+    padding: 3rem 2rem;
+    margin-top: 1rem;
+}
+
+form {
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+
+    .btn {
+        flex: 1 1 15rem;
+    }
+}
+
+.inputBox {
+    flex: 1 1 25rem;
+}
+
+.inputBox input {
+    width: 100%;
+    padding: 1.2rem 1.4rem;
+    border-radius: 5rem;
+    border: .2rem solid #29d9d5;
+    font-size: 1.6rem;
+    color: #aaa;
+    text-transform: none;
+    background: none;
+}
+
+.inputBox span {
+    font-size: 1.4rem;
+    color: #aaa;
+}
+
+/* FAQS Section */
+
+.faqs {
+    color: #fff;
+}
+
+.faqs h1 {
+    padding-top: 3rem;
+    text-align: center;
+    margin: 2rem 0;
+    font-size: 5rem;
+}
+
+.reviews h1 {
+    padding-top: 3rem;
+    text-align: center;
+    margin: 2rem 0;
+    font-size: 5rem;
+    color: #fff;
+}
+
+/* Reviews Section */
+
+.review {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.review .content {
+    flex: 1 1 42rem;
+}
+
+.review .content span {
+    font-size: 2rem;
+    color:#29d9d5;
+}
+
+.review .content h3 {
+    font-size: 3rem;
+    color: #fff;
+}
+
+.review .content p {
+    font-size: 1.4rem;
+    color: #aaa;
+    padding: 1rem 0;
+    line-height: 2;
+}
+
+.review .box-container {
+    flex: 1 1 42rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.review .box {
+    flex: 1 1 20rem;
+    border-radius: 1rem;
+    padding: 2rem;
+    background: #222;
+}
+
+.review p {
+    font-size: 1.4rem;
+    padding-bottom: 1rem;
+    line-height: 2;
+    color: #aaa;
+}
+
+.user h3 {
+    font-size: 2rem;
+    color: #fff;
+}
+
+/* Newsletter Section */
+
+.newsletter.box {
+    padding: 1rem 0;
+}
+
+.newsletter h3 {
+    font-size: 3.2rem;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.newsletter p {
+    font-size: 2.4rem;
+    color: #aaa;
+    padding: 1rem 0;
+    line-height: 2;
+    text-align: center;
+}
+
+.newsletter form .email {
+    width: 49.4%;
+    border-radius: 5rem;
+    border: .2rem solid #29d9d5;
+    background: none;
+    font-size: 1.5rem;
+    text-transform: none;
+    color: #aaa;
+    margin-top: 1rem;
+    padding: 1.2rem 1.4rem;
+}
+
+.newsletter form .email2 {
+    width: 49.4%;
+    border-radius: 5rem;
+    border: .2rem solid #29d9d5;
+    background: none;
+    font-size: 1.5rem;
+    text-transform: none;
+    color: #aaa;
+    margin-top: 1rem;
+    padding: 1.2rem 1.4rem;
+}
+
+.newsbtn {
+    margin: auto;
+}
+
+.newsbtn #join_list {
+    width: 25rem;
+    margin-right: .5rem;
+}
+
+.newsbtn #clear_form{
+    width: 25rem;
+    margin-left: .5rem;
+}
+
+.box span {
+    display: inline-block;
+    margin-left: 24rem;
+    margin-right: 20rem;
+    font-size: 1.4rem;
+    color: #aaa;
+    line-height: 2;
+}
+
+#email_form span {
+    color: red;
+    font-size: 1rem;
+}
+
+.confirmation h1 {
+    text-align: center;
+    font-size: 5rem;
+    color: #fff;
+}
+
+.confirmation p {
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.confirmation div {
+    padding-top: 2rem;
+}
+
+.confirmation .btn {
+    margin-left: 525px;
+}
+
+#where_error {
+    color: red;
+    font-size: 1rem;
+}
+
+#party_error {
+    color: red;
+    font-size: 1rem;
+}
+
+#date_error {
+    color: red;
+    font-size: 1rem;
+}
+
+#date_error2 {
+    color: red;
+    font-size: 1rem;
+}
+
+#book-form h1 {
+    font-size: 3.2rem;
+    color: #fff;
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+/* Media Queries */
+
+@media (max-width: 991px) {
+
+    html {
+        font-size: 55%;
+    }
+
+    .header {
+        padding: 1.5rem 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .navbar {
+        position: absolute;
+        margin: auto;
+        top: 99%; left:0; right:0;
+        background: #222;
+    }
+
+    .navbar a {
+        margin: auto;
+        font-size: 2rem;
+        display: block;
+    }
+}
+
+@media (max-width: 450px) {
+
+    html {
+        font-size: 55%;
+    }
+}
